@@ -111,14 +111,10 @@ body {
 
     }
     .header{
-        height: 80px;
+        height: 60px;
     }
 
-    #estadoColectivo{
-        margin-top: 90px;
-    }
+    
 
-    #horaColectivo{
-        margin-top: 150px;
-    }
+    
 }
