@@ -98,3 +98,19 @@ body {
 .btn{
     margin-right:5px ;
 }
+
+
+
+/* Media query para pantallas móviles */
+@media (max-width: 767px) {
+    .titulo {
+        font-size: 15px; /* Ajusta el tamaño del título para pantallas móviles */
+    }
+    .btn{
+        font-size: 15px;
+
+    }
+    .header{
+        height: 80px;
+    }
+}
