@@ -113,4 +113,12 @@ body {
     .header{
         height: 80px;
     }
+
+    #estadoColectivo{
+        margin-top: 80px;
+    }
+
+    #horaColectivo{
+        margin-top: 140px;
+    }
 }
