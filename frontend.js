@@ -199,7 +199,7 @@ getParadas(); // Cargar las paradas al inicio
 // Función para mostrar la ruta de la línea
 async function mostrarRuta(lineaId) {
     try {
-        let response = await fetch(`https://geolocalizacion-api-ygyd.onrender.com/${lineaId}`);
+        let response = await fetch(`https://geolocalizacion-api-ygyd.onrender.com/coordenadas_recorridos/${lineaId}`);
         if (!response.ok) {
             throw new Error('Error en la respuesta de la red: ' + response.statusText);
         }
